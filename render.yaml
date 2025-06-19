@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: vnc-server-cloud
+    env: docker
+    dockerfilePath: ./Dockerfile
+    scaling:
+      minInstances: 1
+      maxInstances: 1
+    envVars:
+      - key: PORT
+        generateValue: true 

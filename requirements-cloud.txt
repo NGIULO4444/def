@@ -1,0 +1,3 @@
+# Dipendenze per VNC Server Cloud
+# Minimaliste - solo server, niente GUI
+requests==2.31.0 

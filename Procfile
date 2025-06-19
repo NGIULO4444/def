@@ -1,0 +1,1 @@
+web: python vnc_server_cloud.py 
